@@ -1,0 +1,92 @@
+#home-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--dark-m);
+}
+
+#home-cont .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home-cont .head p{
+    color: var(--yel);
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#home-cont .create-resume{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: var(--dark-m-2);
+    color: var(--yel);
+}
+
+.home-resume-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.home-resume-cont .cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-resume-cont .cont .box{
+    width: 250px;
+    height: auto;
+    background: var(--dark);
+    padding: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.home-resume-cont .cont .box .top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-resume-cont .cont .box .top p{
+    font-size: 25px;
+    padding: 20px;
+    color: #fff;
+}
+.home-resume-cont .cont .box .bottom{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    background: #000;
+}
+
+.home-resume-cont .cont .box .bottom .btn{
+    transform: scale(.70);
+}

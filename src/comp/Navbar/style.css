@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--dark);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar p{
+    color: var(--yel);
+    font-size: 15px;
+    padding: 10px;
+}
+
+.navbar .logo{
+    width: 50px;
+}
